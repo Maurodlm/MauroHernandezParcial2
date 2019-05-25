@@ -4,7 +4,8 @@
              x:Class="app.Views.LoginPage">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
+            <StackLayout
+                Padding="15">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -21,8 +22,16 @@
                         Grid.Column="1"
                         Placeholder="Ingrese su nota">
                     </Entry>
+                   
                     
                 </Grid>
+                <ActivityIndicator>
+                </ActivityIndicator>
+                <Button
+                        Text="Login"
+                        TextColor="White"
+                        BackgroundColor="Navy">
+                </Button>
             </StackLayout>
         </ScrollView>
         
