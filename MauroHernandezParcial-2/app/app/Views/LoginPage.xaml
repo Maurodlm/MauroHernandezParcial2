@@ -16,7 +16,7 @@
                             Grid.Row="0"
                             Grid.Column="0"
                             Text="Notes"
-                            TextColor="White">
+                            TextColor="Black">
                     </Label>
                     <Entry
                         Grid.Row="0"
